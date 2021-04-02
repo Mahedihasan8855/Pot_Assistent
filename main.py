@@ -59,7 +59,7 @@ if __name__ == "__main__":
             speak("My name is Pothead How can I help you Sir?")
         elif "who are you" in query:
             speak(
-                "I am pothead 1.0.0 Made by- Maahedi Hassan. How can I help you Sir?"
+                "I am pothead 1.0.0. I am a virtual assistant  Programmed by- Maahedi Hassan. How can I help you Sir?"
             )
 
         elif 'wikipedia' in query:
@@ -75,6 +75,8 @@ if __name__ == "__main__":
             speak("Hello, How are you")
         elif 'how are you' in query:
             speak("I am fine")
+        elif 'where are you' in query:
+            speak("I am just in your device")
 
         elif "youtube" in query:
             speak("Searching in youtube.....")
